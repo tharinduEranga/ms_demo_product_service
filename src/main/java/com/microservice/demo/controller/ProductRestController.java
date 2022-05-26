@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/product")
 public class ProductRestController {
 
-    @Value("${app.title}")
+    @Value("${app.title.product}")
     private String title;
 
     @GetMapping("/data")
